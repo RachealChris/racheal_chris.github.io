@@ -7,6 +7,10 @@ tags: [SQL, World Data]
 
 In this project, I analyze the world fact data from the 2015 World Fact book.
 
+
+
+
+
 --Taking a look at the dataset
 select *
 from facts;
