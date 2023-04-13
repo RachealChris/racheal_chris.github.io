@@ -13,11 +13,13 @@ In this project, I analyze the world fact data from the 2015 World Fact book.
 
 Taking a look at the dataset
 
-``` select *
+``` 
+select *
 from facts;
 ```
 
 Determine the maximum and minimum population and population growth in all countries
+
 ```
 select 
 	   min(population) as MIN_POPULATION,
